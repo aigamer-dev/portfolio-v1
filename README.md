@@ -1,53 +1,12 @@
-# Portfolio V1 - Deployment
+# Portfolio V1 - AIGAMER
 
-This repository contains the V1 version of Hariharan S's portfolio website.
+This is my first version portfolio website. I originally created this site in 2020 as a Django project, but later converted it to a static HTML site using CDN-hosted assets for simplicity and performance.
 
-## Deployment
-
-This site is automatically deployed to GitHub Pages using GitHub Actions.
-
-### Live URL
-- **Custom Domain**: https://v1.aigamer.dev
-- **GitHub Pages**: https://aigamer-dev.github.io/portfolio-v1/
-
-## Setup Instructions
-
-### 1. Repository Setup
-1. Create a private repository: `aigamer-dev/portfolio-v1`
-2. Push this code to the repository
-
-### 2. GitHub Pages Configuration
-1. Go to repository Settings → Pages
-2. Source: Deploy from a branch
-3. Branch: `gh-pages` / `root`
-4. Save
-
-### 3. Custom Domain Setup
-1. In your DNS provider, add a CNAME record:
-   - Name: `v1`
-   - Value: `aigamer-dev.github.io`
-2. In repository Settings → Pages → Custom domain
-   - Enter: `v1.aigamer.dev`
-   - Check "Enforce HTTPS"
-
-### 4. Deploy
-Push to the `main` branch and GitHub Actions will automatically deploy.
-
-## Local Development
-
-Since this is a static HTML site, you can open `index.html` directly in a browser or use a local server:
-
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx serve .
-```
+The Page is deployed via GitHub Pages, and mapped to the custom domain `v1.aigamer.dev`.
 
 ## Structure
 
-```
+```tree
 .
 ├── index.html          # Main HTML file
 ├── css/               # Stylesheets (if any local)
