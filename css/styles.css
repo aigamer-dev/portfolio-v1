@@ -1,2 +1,4 @@
 /* Minimal styles - Bootstrap and other styles loaded from CDN */
-body { font-family: 'Muli', sans-serif; }
+body {
+  font-family: "Muli", sans-serif;
+}
